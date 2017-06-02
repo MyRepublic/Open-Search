@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>MyRepublic Sidoarjo</ShortName>
+  <LongName>Search on MyRepublic Sidoarjo</LongName>
+  <Description>Search content from blog posts at MyRepublic Sidoarjo</Description>
+  <Image type="http://myrepublic-sidoarjo.blogspot.com/favicon.ico" height="16" width="16">image/x-icon</Image>
+  <Developer>Automattic</Developer>
+  <Url type="application/atom+xml" template="http://myrepublic-sidoarjo.blogspot.com/search?q={searchTerms}&amp;feed=atom"/>
+  <Url type="application/rss+xml" template="http://myrepublic-sidoarjo.blogspot.com/search?q={searchTerms}&amp;feed=rss2"/>
+  <Url type="text/html" template="http://myrepublic-sidoarjo.blogspot.com/search?q={searchTerms}" method="GET" />
+  <Url type="application/opensearchdescription+xml" rel="self" template="URL FILE" />
+</OpenSearchDescription>
